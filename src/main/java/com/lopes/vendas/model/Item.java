@@ -18,6 +18,7 @@ public class Item {
 	private Venda venda;
 
 	@NotNull
+	@ManyToOne
 	private Produto produto;
 
 	@NotNull
